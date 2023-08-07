@@ -1,12 +1,12 @@
 # Project 15：Tilt And LED
 
-### **Introduction**
+**Introduction**
 
 The ancients without electronic clocks, so the hourglass are invented to measure time. The hourglass has a large capacity on both sides, and which is filled with fine sand on one side. What’s more, there is a small channel in the middle, which can make the hourglass stand upright , the side with fine sand is on the top. 
 
 However, due to the action of gravity, the fine sand will flow down through the channel to the other side of the hourglass. When the sand reaches the bottom, turn it upside down and record the number of times it has gone through the hourglass, therefore, the next day we can know the approximate time of the day by it. In this project, we will use a Raspberry Pi Pico to control the tilt switch and LED lights to simulate an hourglass and make an electronic hourglass. 
 
-### **Components Required**
+**Components Required**
 
 | ![img](media/wps1-168421903995617.png) | ![img](media/wps2-168421904163518.jpg) | ![img](media/wps3-168421904321119.jpg) | ![img](media/wps4-168421904501920.jpg) | ![img](media/wps5-168421904657121.jpg) |
 | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- |
@@ -14,7 +14,7 @@ However, due to the action of gravity, the fine sand will flow down through the 
 | ![img](media/wps6-168421904925522.jpg) | ![img](media/wps7-168421905090923.jpg) | ![img](media/wps8-168421905247524.jpg) | ![img](media/wps9-168421905395625.jpg) |                                        |
 | Breadboard*1                           | 220ΩResistor*4                         | USB Cable*1                            | Jumper Wires                           |                                        |
 
-### **Component Knowledge**
+**Component Knowledge**
 
 ![](media/8c40739f8e05f753f145420b421a0f47.png)
 
@@ -28,7 +28,7 @@ As shown in the figure, use the internal structure of the tilt switch to illustr
 
 ![](media/bf8b10ad248ac939ac4ef96d02ed87c7.png)
 
-### **Circuit Diagram and Wiring Diagram**
+**Circuit Diagram and Wiring Diagram**
 
 ![](media/8735f9531646b77c35932404a681b76d.png)
 
@@ -46,7 +46,7 @@ How to identify the 220Ω 5-band resistor and 10KΩ 5-band resistor
 
 ![](media/246cf3885dc837c458a28123885c9f7b.png)
 
-### **Test Code**
+**Test Code**
 
 The code used in this project is saved in the file KS3026 Keyestudio Raspberry Pi Pico Learning Kit Basic Edition\3. Raspberry Pi System\Python_Tutorial\2. Projects\Project 15：Tilt And LED. 
 
@@ -91,7 +91,7 @@ while True:
 
 
 
-### **Test Result**
+**Test Result**
 
 Ensure that the Raspberry Pi Pico is connected to the computer，click“![](media/ec00367ea605788eab454cd176b94c7b.png)Stop/Restart backend”.
 

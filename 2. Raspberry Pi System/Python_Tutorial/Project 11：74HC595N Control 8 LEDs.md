@@ -1,12 +1,12 @@
 # Project 11：74HC595N Control 8 LEDs 
 
-### **Introduction**
+**Introduction**
 
 In previous projects, we have learned how to light an LED.  However, how to light up a lot of LEDs with only 26 I/O ports on the Raspberry Pi Pico? Sometimes we may run out of pins, at that time, we need to extend it with the shift register. You can use a 74HC595N chip to control up to eight outputs at a time, using only a few pins on your microcontroller. 
 
 In addition, You can also connect multiple registers together to further expand the output. In this project, we will use a Raspberry Pi Pico, a 74HC595 chip and LEDs to make a flowing water light to understand the function of the chip.  
 
-### **Components Required**
+**Components Required**
 
 | ![image-20230516142409787](media/image-20230516142409787.png) |![image-20230516142413976](media/image-20230516142413976.png)|![image-20230516142417941](media/image-20230516142417941.png)|![](media/3ec5906fad2172708d449390140f55e6.png)|
 | ------------------------------------------------------- | ------------------------------------ | ---------------------- | --------------------------- |
@@ -14,7 +14,7 @@ In addition, You can also connect multiple registers together to further expand 
 | ![image-20230516142423110](media/image-20230516142423110.png) |![image-20230516142428857](media/image-20230516142428857.png)|![image-20230516142437157](media/image-20230516142437157.png)|![](media/7dcbd02995be3c142b2f97df7f7c03ce.png)|
 | 220ΩResistor\*8                                         | Breadboard\*1                        | Jumper Wires           | USB Cable\*1                |
 
-### **Component Knowledge**
+**Component Knowledge**
 
 ![](media/6921c6d60135e072ed4bd24564ec4a6d.png)
 
@@ -40,7 +40,7 @@ The shift register has a serial shift input (SI) and a serial output (SQH) for c
 
 
 
-### **Circuit Diagram and Wiring Diagram**
+**Circuit Diagram and Wiring Diagram**
 
 ![](media/1738cecf584c83b55370153ebc1688b7.png)
 
@@ -50,7 +50,7 @@ Note: Pay attention to the direction in which the 74HC595N chip is inserted.
 
 ![](media/91833532723f4ee623902c0252092741.png)
 
-### **Test Code**
+**Test Code**
 
 Open“Thonny”, click“This computer”→“home”→“pi”→“2. Projects”→“Project 11：74HC595N Control 8 LEDs”. 
 
@@ -94,7 +94,7 @@ while True:
 
 
 
-### **Test Result**
+**Test Result**
 
 Ensure that the Raspberry Pi Pico is connected to the computer，click“![](media/ec00367ea605788eab454cd176b94c7b.png)Stop/Restart backend”.
 

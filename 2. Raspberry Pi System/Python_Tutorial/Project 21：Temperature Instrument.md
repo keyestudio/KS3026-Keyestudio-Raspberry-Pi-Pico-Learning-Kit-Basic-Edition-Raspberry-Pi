@@ -1,10 +1,10 @@
 # Project 21：Temperature Instrument
 
-### **Introduction**
+**Introduction**
 
 Thermistor is a kind of resistor whose resistance depends on temperature changes, which is widely used in gardening, home alarm system and other devices. Therefore, we can use this feature to make a temperature instrument.
 
-### **Components Required**
+**Components Required**
 
 | ![img](media/wps46.png) | ![img](media/wps47.jpg)             | ![img](media/wps48.jpg) | ![img](media/wps49.jpg) |                         |
 | ----------------------- | ----------------------------------- | ----------------------- | ----------------------- | ----------------------- |
@@ -14,7 +14,7 @@ Thermistor is a kind of resistor whose resistance depends on temperature changes
 
 
 
-### **Component Knowledge**
+**Component Knowledge**
 
 Thermistor: 
 
@@ -50,7 +50,7 @@ We can use the value measured by the ADC converter to get the resistance value o
 
 
 
-### **Read the Values**
+**Read the Values**
 
 First we will learn the thermistor to read the current ADC value, voltage value and temperature value and print them out . Please connect the wires according to the following wiring diagram.
 
@@ -101,7 +101,7 @@ Press“Ctrl+C”or click“![](media/92a50d0579b5d50ea659a6b8930da44a.png)Stop/
 
 ![](media/06c41e9d588bbf22196cb6bbc80a88ca.png)
 
-### **Circuit Diagram and Wiring Diagram**
+**Circuit Diagram and Wiring Diagram**
 
 Note : LCD\_128X32\_DOT must be connected with a 10CM M-F Dupont wire, the LCD\_128X32\_DOT will display normally. 
 
@@ -111,7 +111,7 @@ Otherwise, using a 20CM M-F Dupont wire may cause the LCD\_128X32\_DOT display a
 
 ![](media/91445212232765942d482b84da03f598.png)
 
-### **Test Code**
+**Test Code**
 
 The code used in this project is KS3026Keyestudio Raspberry Pi Pico Learning Kit Basic Edition\\3. Raspberry Pi System\\Python\_Tutorial\\2. Projects\\Project 21：Temperature Instrument. We save the code to the pi folder of the Raspberry Pi system. The path:home/pi/2. Projects.
 
@@ -183,7 +183,7 @@ except:
 
 
 
-### **Test Result**
+**Test Result**
 
 Ensure that the Raspberry Pi Pico is connected to the computer，click“![](media/92a50d0579b5d50ea659a6b8930da44a.png)Stop/Restart backend”.
 

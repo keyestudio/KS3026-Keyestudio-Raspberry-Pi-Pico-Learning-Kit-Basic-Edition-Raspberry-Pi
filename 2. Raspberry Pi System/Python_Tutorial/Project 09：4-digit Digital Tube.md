@@ -1,6 +1,6 @@
 # Project 09：4-Digit Digital Tube
 
-### **Introduction**
+**Introduction**
 
 The 4-digit 7-segment digital tube is a very practical display device, and it is used for devices such as electronic clocks and score counters. Due to the low price and it is easy to use, more and more projects will use 4-digit 7-segment digital tubes. 
 
@@ -8,7 +8,7 @@ In this project, we will use the Raspberry Pi Pico to control a 4-bit 7-segment 
 
 
 
-### **Components Required**
+**Components Required**
 
 | ![image-20230516141751707](media/image-20230516141751707.png) | ![image-20230516141756177](media/image-20230516141756177.png) |![](media/098a2730d0b0a2a4b2079e0fc87fd38b.png)||
 | ------------------------------------------------------- | ------------------------------------ | ---------------------- | ---------------------- |
@@ -18,7 +18,7 @@ In this project, we will use the Raspberry Pi Pico to control a 4-bit 7-segment 
 
 
 
-### **Component Knowledge**
+**Component Knowledge**
 
 ![](media/ce987bf9a2ab398945c98b34d3f8a003.png)
 
@@ -36,13 +36,13 @@ G1, G2, G3 and G4 are pins of control bit.
 
 ![](media/ea75d1b7414bf6f8c187fb32fea9bc83.png)
 
-### **Circuit Diagram and Wiring Diagram**
+**Circuit Diagram and Wiring Diagram**
 
 ![](media/4f64b9bf6b74ab49584f69c7465efa73.png)
 
 ![](media/6bf1bae6af0324d50a37ab7a0cabee11.png)
 
-### **Test Code**
+**Test Code**
 
 The code used in this project is saved in the file KS3026 Keyestudio Raspberry Pi Pico Learning Kit Basic Edition\3. Raspberry Pi System\Python_Tutorial\2. Projects\Project 09：4-Digit Digital Tube. 
 
@@ -144,7 +144,7 @@ showData(num)
 
 
 
-### **Test Result：**
+**Test Result：**
 
 Connect the pico board to the Raspberry Pi. Click ![](media/32e03e9d4211e9ef97c1d2b18f05c902.png)to check the Shell
 

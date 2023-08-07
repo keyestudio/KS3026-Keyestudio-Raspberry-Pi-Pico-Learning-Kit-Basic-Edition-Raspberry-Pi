@@ -1,6 +1,6 @@
 # Project 04: Breathing Led
 
-### **Introduction**
+**Introduction**
 
 In previous studies, we know that LEDS have on/off state, so how to enter the intermediate state? How to output an intermediate state to make the LED "half bright"? That's what we're going to learn. Breathing lights, or LEDS turn on and off again, which are like "breathing". 
 
@@ -8,7 +8,7 @@ So, how to control the brightness of LEDS? We will use the Raspberry Pi Pico PWM
 
 
 
-### **Components**
+**Components**
 
 | ![image-20230516135150566](media/image-20230516135150566.png) | <img src="media/bbed91c0b45fcafc7e7163bfeabf68f9.png" style="zoom:50%;" /> | ![image-20230516135157409](media/image-20230516135157409.png) ||
 | ------------------------------------------------------- | ------------------------------------ | ---------------------- | ---------------------- |
@@ -16,7 +16,7 @@ So, how to control the brightness of LEDS? We will use the Raspberry Pi Pico PWM
 | ![image-20230516135207872](media/image-20230516135207872.png) |![image-20230516135213310](media/image-20230516135213310.png)|![image-20230516135218781](media/image-20230516135218781.png)|![](media/7dcbd02995be3c142b2f97df7f7c03ce.png)|
 | Red LED\*1                                              | 220Ω Resistance\*1                   | Jumper Wire\*2         | USB Cable\*1           |
 
-### **Knowledge**
+**Knowledge**
 
 ![](media/6549bdbfd4e7b6b2b341012105d655e8.png)
 
@@ -58,7 +58,7 @@ The Raspberry Pi Pico has 16 PWM channels, each of which can control frequency a
 
 
 
-### **Circuit Diagram and Wiring Diagram**
+**Circuit Diagram and Wiring Diagram**
 
 ![](media/cb069d7553d861e3293d8bdbe85bbd05.png)
 
@@ -74,7 +74,7 @@ How to identify the 220Ω 5-band resistor
 
 ![](media/55c0199544e9819328f6d5778f10d7d0.png)
 
-### **Test Code**
+**Test Code**
 
 The design of this project makes the GP16 output PWM, and the pulse width gradually increases from 0% to 100%, and then gradually decreases from 100% to 0%.  
 
@@ -110,7 +110,7 @@ while True:
 
 
 
-### **Test Result：**
+**Test Result：**
 
 Connect the pico board to the Raspberry Pi. Click![](media/32e03e9d4211e9ef97c1d2b18f05c902.png)to check the Shell
 

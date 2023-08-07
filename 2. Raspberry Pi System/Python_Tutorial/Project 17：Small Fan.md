@@ -1,12 +1,12 @@
 # Project 17：Small Fan
 
-### **Introduction**
+**Introduction**
 
 In the hot summer, we need an electric fan to cool us down, so in this project, we will use the Plus control board to control 130 motor module and small blade to make a small fan.
 
 
 
-### **Components Required**
+**Components Required**
 
 | ![image-20230516144305354](media/image-20230516144305354.png) | ![image-20230516144310388](media/image-20230516144310388.png) | ![image-20230516144320387](media/image-20230516144320387.png) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -20,7 +20,7 @@ In the hot summer, we need an electric fan to cool us down, so in this project, 
 
 
 
-### **Component Knowledge**
+**Component Knowledge**
 
 ![](media/9197d4aff9356c585b7ef68e33a6881d.png)
 
@@ -54,7 +54,7 @@ The commonly used triodes are divided into two types: PNP type triode and NPN ty
 
 ![](media/5642275b2be86782bd9563ee840b0d1a.png)
 
-### **Connection Diagram 1**
+**Connection Diagram 1**
 
 we apply the S8050(NPN triode) in this experiment to control the motor
 
@@ -62,7 +62,7 @@ we apply the S8050(NPN triode) in this experiment to control the motor
 
 ![](media/319b4a31b0bc9d65d5f10bfcccf051a1.png)
 
-### **Test Code 1**
+**Test Code 1**
 
 The code used in this project is saved in the file KS3026 Keyestudio Raspberry Pi Pico Learning Kit Basic Edition\\3. Raspberry Pi System\\Python\_Tutorial\\2. Projects\\Project 17：Small Fan. You can move the code to anywhere, for example, we can save the code in the Disk(D), the route isD:\\2. Python Projects.
 
@@ -90,7 +90,7 @@ except:
 
 
 
-### **Test Result** 1
+**Test Result** 1
 
 Ensure that the Raspberry Pi Pico is connected to the computer，click“![](media/ec00367ea605788eab454cd176b94c7b.png)Stop/Restart backend”.
 
@@ -102,7 +102,7 @@ Press“Ctrl+C”or click“![](media/ec00367ea605788eab454cd176b94c7b.png)Stop/
 
 ![](media/9aa0872d67052898982025fb3b2d0f5d.png)
 
-### **Circuit Diagram and Wiring Diagram 2：**
+**Circuit Diagram and Wiring Diagram 2：**
 
 We use the S8550 PNP triode to control a motor
 
@@ -110,7 +110,7 @@ We use the S8550 PNP triode to control a motor
 
 ![](media/08150e9b22904b62ff4b841a8551fbb6.png)
 
-### **Test Code 2**
+**Test Code 2**
 
 Go to the folder KS3026 Keyestudio Raspberry Pi Pico Learning Kit Basic Edition\\3. Raspberry Pi System\\Python\_Tutorial\\2. Projects\\Project 17：Small Fan.
 
@@ -140,7 +140,7 @@ except:
 
 
 
-### **Test Result 2**
+**Test Result 2**
 
 Ensure that the Raspberry Pi Pico is connected to the computer，click“![](media/ec00367ea605788eab454cd176b94c7b.png)Stop/Restart backend”.
 

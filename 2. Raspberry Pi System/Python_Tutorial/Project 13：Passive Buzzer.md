@@ -1,12 +1,12 @@
 # Project 13：Passive Buzzer
 
-### **Introduction**
+**Introduction**
 
 In a previous project, we have learned an active buzzer, which can only produce one sound and may let you feel monotonous. 
 
 In this project, we will learn a passive buzzer and use the Raspberry Pi Pico to control the passive buzzer to sound an alarm. Unlike the active buzzer, the passive buzzer can emit sounds of different frequencies. 
 
-### **Components Required**
+**Components Required**
 
 | ![img](media/wps5.png)                | ![img](media/wps6-16842186555165.jpg) | ![img](media/wps7-16842186569006.jpg) |
 | ------------------------------------- | ------------------------------------- | ------------------------------------- |
@@ -16,7 +16,7 @@ In this project, we will learn a passive buzzer and use the Raspberry Pi Pico to
 
 
 
-### **Component Knowledge**
+**Component Knowledge**
 
 ![](media/8d0020e53824072cbe9d4f7d2f8acb4f.png)
 
@@ -28,13 +28,13 @@ Passive buzzers cannot distinguish between positive polarity while active buzzer
 
 ![](media/fc42c5ed014609ff0b290ee5361bb2fd.png)
 
-### **Circuit Diagram and Wiring Diagram**
+**Circuit Diagram and Wiring Diagram**
 
 ![](media/e0da1ccdbff24d256db130816c55da74.png)
 
 ![](media/e601e48f8deddb3e9e7734d0022106b3.png)
 
-### **Test Code**
+**Test Code**
 
 The code used in this project is saved in the file KS3026 Keyestudio Raspberry Pi Pico Learning Kit Basic Edition\\3. Raspberry Pi System\\Python\_Tutorial\\2. Projects\\Project 13：Passive Buzzer. 
 
@@ -71,7 +71,7 @@ while True:
 
 
 
-### **Test Result**
+**Test Result**
 
 Ensure that the Raspberry Pi Pico is connected to the computer，click“![](media/ec00367ea605788eab454cd176b94c7b.png)Stop/Restart backend”.
 

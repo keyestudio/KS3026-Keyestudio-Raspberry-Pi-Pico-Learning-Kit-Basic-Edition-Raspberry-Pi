@@ -1,6 +1,6 @@
 # Project 08: 1-Digit Digital Tube
 
-### **Introduction**
+**Introduction**
 
 The seven-segment digital tube is an electronic display device that displays decimal numbers. It is widely used in digital clocks, electronic meters, basic calculators and other electronic devices that display digital information. 
 
@@ -10,7 +10,7 @@ In this project, we will use the Raspberry Pi Pico to control 1-digit digital tu
 
 
 
-### **Components Required**
+**Components Required**
 
 | ![img](media/wps17.png) | ![img](media/wps18.jpg)             | ![img](media/wps19.jpg) |                         |
 | ----------------------- | ----------------------------------- | ----------------------- | ----------------------- |
@@ -20,7 +20,7 @@ In this project, we will use the Raspberry Pi Pico to control 1-digit digital tu
 
 
 
-### **Component Knowledge**
+**Component Knowledge**
 
 ![](media/e44a0f27beec739ee13e68c04865989f.png)
 
@@ -40,7 +40,7 @@ In this experiment, we use an ordinary common cathode one-bit digital tube. As w
 
 
 
-### **Circuit Diagram and Wiring Diagram**
+**Circuit Diagram and Wiring Diagram**
 
 ![](media/84e67e0ce2d7627a96b83156324d92d5.png)
 
@@ -52,7 +52,7 @@ The direction of the 7-segment digital tube inserted into the breadboard is the 
 
 ![](media/d99daa4165cf32b2283aae82466981bd.png)
 
-### **Test Code**
+**Test Code**
 
 The digital display is divided into 7 segments, and the decimal point display is divided into 1 segment. When certain numbers are displayed, the corresponding segment will be illuminated. For example, when the number 1 is displayed, segments b and c will be opened.
 
@@ -95,7 +95,7 @@ for code in reversed(mask_digits):
 
 
 
-### **Test Result：**
+**Test Result：**
 
 Connect the pico board to the Raspberry Pi. Click ![](media/32e03e9d4211e9ef97c1d2b18f05c902.png)to check the Shell
 

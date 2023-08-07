@@ -1,6 +1,6 @@
 # Project 10：8×8 Dot-matrix Display
 
-### **Introduction**
+**Introduction**
 
 The dot-matrix display is an electronic digital display device that can show information on machines, clocks and many other devices. 
 
@@ -8,7 +8,7 @@ In this project, we will use the Raspberry Pi Pico to control the 8x8 LED dot ma
 
 
 
-### **Components Required**
+**Components Required**
 
 | ![image-20230516142042963](media/image-20230516142042963.png) | ![image-20230516142056292](media/image-20230516142056292.png) | ![image-20230516142059701](media/image-20230516142059701.png) |                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------- |
@@ -18,7 +18,7 @@ In this project, we will use the Raspberry Pi Pico to control the 8x8 LED dot ma
 
 
 
-### **Component Knowledge**
+**Component Knowledge**
 
 **8\*8 Dot-matrix display module:**
 
@@ -30,13 +30,13 @@ For this reason, we specially designed this module, using the HT16K33 chip to dr
 
 ![](media/bcfa2498367eaf9c7733da15af32eae7.png)
 
-### **Circuit Diagram and Wiring Diagram**
+**Circuit Diagram and Wiring Diagram**
 
 ![](media/dc2d64f3098b039937483e04589cbc17.png)
 
 ![](media/094a47e28b2c735ab475ede10c0deb43.png)
 
-### **Test Code**
+**Test Code**
 
 The code used in this project is saved in the file KS3026 Keyestudio Raspberry Pi Pico Learning Kit Basic Edition\3. Raspberry Pi System\Python_Tutorial\2. Projects\Project 10：8×8 Dot-matrix Display.
 
@@ -127,7 +127,7 @@ except:
 
 
 
-### **Test Result**
+**Test Result**
 
 Ensure that the Raspberry Pi Pico is connected to the computer, click ![](media/ec00367ea605788eab454cd176b94c7b.png)“Stop/Restart backend”.
 

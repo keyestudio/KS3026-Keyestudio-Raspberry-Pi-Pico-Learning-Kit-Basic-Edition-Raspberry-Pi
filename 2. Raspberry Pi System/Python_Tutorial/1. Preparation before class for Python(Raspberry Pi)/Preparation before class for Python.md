@@ -18,7 +18,7 @@ Also, Raspberry Pi leads out 40Pin pins that can be connected to various sensors
 
   - Computer and other parts
 
-### 1.1 Install Software Tools
+1.1 Install Software Tools
 
 **Windows System:**
 
@@ -96,12 +96,12 @@ Download link:
     
     ![](/media/df2deb7e04c25ee207e994f0d2808194.png)
     
-    ##### **Win32DiskImager**
+**Win32DiskImager**
     
     Download：http://www.nirsoft.net/utils/wnetwatcher.zip
     
     
-### 1.2 Raspberry Pi Imager
+1.2 Raspberry Pi Imager
 
 Download link for **the latest version**:
 
@@ -137,7 +137,7 @@ Use the SD Card Formatter to format a TFT memory card, as illustrated below.
 
 ![](/media/82031b5354cc4edeccf2bfa7465b7c6c.png)
 
-#### **Burn system**
+**Burn system**
 
 Burn the Raspberry Pi OS to the TFT memory card using Win32DiskImager software.
 
@@ -155,13 +155,13 @@ The SSH login function can be activated by copying SSH file to boot category, as
 
 Eject card reader.
 
-#### **Log in system**
+**Log in system**
 
 (Raspberry and PC should be in the same local area network.)
 
 Insert TFT memory card into Raspberry Pi, connect internet cable and plug in power. If you have screen and HDMI cable of Raspberry Pi, you could view Raspberry Pi OS activating. If not, you can enter the desktop of Raspberry Pi via SSH remote login software---WinSCP andxrdp.
 
-#### **Remote login**
+**Remote login**
 
 **Enter default user name, password and host name on WinSCP to log in. Only a Raspberry Pi is connected in same network.**
 
@@ -169,7 +169,7 @@ Insert TFT memory card into Raspberry Pi, connect internet cable and plug in pow
 
 ![](/media/ff64e71b9e30df60d0b099dbc2532587.png)
 
-#### **Check IP and mac address**
+**Check IP and mac address**
 
 ![](/media/a4285a452978026c9e60c31d35974315.png)
 
@@ -187,7 +187,7 @@ From the above figure, mac address of this Raspberry Pi is a6:32:17:61:9c, and I
 
 Since mac address never changes, you could confirm IP via mac address when not sure which IP it is.
 
-#### **Fix IP address of Raspberry Pi**
+**Fix IP address of Raspberry Pi**
 
 IP address is changeable, therefore, we need to make IP address fixed for convenient use.
 
@@ -315,17 +315,17 @@ Python is an interpreted, high-level and general-purpose programming language. P
 
 Next to pick up Python to control 40 pin of Raspberry Pi.
 
-#### Hardware：
+Hardware：
 
 | **Raspberry Pi 4B**     | **Raspberry Pi 4B Model** |
 | :---------------------: | :-----------------------: |
 | ![image-20230425081935044](media/image-20230425081935044.png) |![image-20230425081939356](media/image-20230425081939356.png)|
 
-#### **Hardware Interfaces：**
+**Hardware Interfaces：**
 
 ![](/media/d232a87d73f7426894a6cafed80521a0.png)
 
-#### **40-Pin GPIO Header Description：**
+**40-Pin GPIO Header Description：**
 
 GPIO pins are divided into BCM GPIO number, physics number and WiringPi GPIO number.
 
@@ -341,7 +341,7 @@ Note: pin(3.3 V) on the left hand is square, but other pins are round. Turn Rasp
 
 Note: the largest current of each pin on Raspberry Pi 4B is 16mA and the aggregate current of all pins is not less than 51mA.
 
-#### Copy Example Code Folder to Raspberry Pi：
+Copy Example Code Folder to Raspberry Pi：
 
 Place example code folder to the pi folder of Raspberry Pi. and extract the example code from **Projects.zip** file, as shown below:
 
@@ -359,7 +359,7 @@ Double-click pythonCode\_A to check py files.
 
 ## 4.Python
 
-#### **Update the firmware of Micropython**
+**Update the firmware of Micropython**
 
 If you want to run the MicroPython on the Pi Pico board, you need to upload a firmware to the pico board.
 
@@ -373,7 +373,7 @@ If you have downloaded the .uf2 program firmware written in C language, the Micr
 
 
 
-#### **Download the firmward of Micropython**
+**Download the firmward of Micropython**
 
 **Method 1**: 
 
@@ -397,7 +397,7 @@ transfer the firmware（rp2-pico-20210902-v1.17.uf2）to the desktop of Raspberr
 
 
 
-#### **Program the firmware of MicroPython**
+**Program the firmware of MicroPython**
 
 Connect a microUSB cable to the USB port of the pico board.
 
@@ -461,7 +461,7 @@ Enter print("Hello World") at the terminal and press Enter，then **Hello World*
 
 ![](/media/fc41b356fd7081524dccb490ce9a3259.png)
 
-#### **Install Thonny**
+**Install Thonny**
 
 The Raspberry Pi Imager that we downloaded comes with some commonly used software, and Thonny is among them.
 
@@ -479,7 +479,7 @@ Open Thonny, click“**Switch to regular mode**”to switch modes, and click OK 
 
 ![](/media/31139bbd6173717bb10421de36cf1334.png)
 
-#### **Connect the Raspberry Pi Pico on the Thonny**
+**Connect the Raspberry Pi Pico on the Thonny**
 
 Click“Python3.9.2”and select“MicroPython(Raspberry Pi Pico)”
 
@@ -513,7 +513,7 @@ Click“**View**”→“**Files**”, then“This computer” and Raspberry Pi 
 
 ![](/media/7f98556c0fa277c215058ec2c4a14b3a.png)
 
-#### **Test Code**
+**Test Code**
 
 Test the Shell commander
 
@@ -521,7 +521,7 @@ Enter“**print(Hello World\!)**”in the Shell and press **Enter**”
 
 ![](/media/77c268003ff676b5d6c3baab9b2ebef3.png)
 
-#### **Online running：**
+**Online running：**
 
 To run Raspberry Pi Pico online, we need to connect the Raspberry Pi Pico to our computer, which allows us to compile or debug programs using Thonny software.  
 
@@ -561,7 +561,7 @@ When running online, click **“**![](/media/92a50d0579b5d50ea659a6b8930da44a.pn
 
 
 
-#### **Offline running**:
+**Offline running**:
 
 When running offline, the Raspberry Pi Pico doesn't need to connect to a computer and Thonny. Once powered up, it can run the main.pyprogram stored in the Raspberry Pi Pico.  
 
@@ -643,7 +643,7 @@ The code here runs offline.  If we want to stop running offline and go to "She
 
 
 
-#### **Thonny common operations**
+**Thonny common operations**
 
 **Upload the code to Raspberry Pi Pico**
 

@@ -1,12 +1,12 @@
 # Project 19：Flame Alarm
 
-### **Introduction**
+**Introduction**
 
 Fire is a terrible thing and fire alarm systems are very useful in houses, commercial buildings and factories. In this project, we will use a Raspberry Pi Pico to control a flame sensor , a buzzer and LED to make fire alarm devices, which is a meaningful maker activity.
 
 
 
-### **Components Required**
+**Components Required**
 
 | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml11676\wps27.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml11676\wps28.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml11676\wps29.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml11676\wps30.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml11676\wps31.jpg) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -16,7 +16,7 @@ Fire is a terrible thing and fire alarm systems are very useful in houses, comme
 
 
 
-### **Component Knowledge**
+**Component Knowledge**
 
 ![image-20230425100858161](media/image-20230425100858161.png)
 
@@ -34,7 +34,7 @@ Since vulnerable to radio frequency radiation and temperature changes, the flame
 
 
 
-### **Read the Simulation Value**
+**Read the Simulation Value**
 
 We start with a simple code to read the value of the flame sensor and print it on the serial monitor. For wiring, please refer to the following wiring diagram.
 
@@ -84,7 +84,7 @@ Press“![](media/ec00367ea605788eab454cd176b94c7b.png)Ctrl+C”or click“Stop/
 
 ![](media/7c04b9dd8c4a10e7b9788ecd95eeeeaa.png)
 
-### **Circuit Diagram and Wiring Diagram**
+**Circuit Diagram and Wiring Diagram**
 
 Next, we will use flame sensor and buzzer, an RGB LED to make an interesting project, that is flame alarm. When flame is detected, RGB LED is red and buzzer alarms.
 
@@ -92,7 +92,7 @@ Next, we will use flame sensor and buzzer, an RGB LED to make an interesting pro
 
 ![](media/0cd1ee17a6f8de81464817090c5832eb.png)
 
-### **Test Code**
+**Test Code**
 
 Note：![](media/40a3ea572836945268b22dfc0cce29c3.png) The threshold of 500 in the code can be reset itself as required.
 
@@ -139,7 +139,7 @@ while True:
 
 
 
-### **Test Result**
+**Test Result**
 
 Ensure that the Raspberry Pi Pico is connected to the computer，click“![](media/ec00367ea605788eab454cd176b94c7b.png)Stop/Restart backend”.
 

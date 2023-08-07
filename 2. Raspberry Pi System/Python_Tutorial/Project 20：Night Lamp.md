@@ -1,6 +1,6 @@
 # Project 20：Night Lamp
 
-### **Introduction**
+**Introduction**
 
 Sensors or components are ubiquitous in our daily life. For example, some public street lights turn on automatically at night and turn off automatically during the day. 
 
@@ -8,7 +8,7 @@ Why? In fact, this make use of a photosensitive element that senses the intensit
 
 In this lesson we will use Raspberry Pi Pico to control LEDs to implement the function of this street light.
 
-### **Components Required**
+**Components Required**
 
 | ![img](media/wps37.png) | ![img](media/wps38.jpg)             | ![img](media/wps39.jpg) | ![img](media/wps40.jpg) | ![img](media/wps41.jpg) |
 | ----------------------- | ----------------------------------- | ----------------------- | ----------------------- | ----------------------- |
@@ -18,7 +18,7 @@ In this lesson we will use Raspberry Pi Pico to control LEDs to implement the fu
 
 
 
-### **Component Knowledge**
+**Component Knowledge**
 
 <img src="media/9e553e75b6f976f33438171eb2f2e775.png" style="zoom:33%;" />
 
@@ -37,7 +37,7 @@ In the circuit above, when the resistance of the photoresistor changes due to th
 
 
 
-#### **Read the Analog Value**
+**Read the Analog Value**
 
 We first use a simple code to read the value of the photoresistor, print it in the serial monitor. For wiring, please refer to the following wiring diagram.
 
@@ -87,7 +87,7 @@ Click“![](media/ec00367ea605788eab454cd176b94c7b.png)Stop/Restart backend”to
 
 ![](media/bbabb2d5c4a997c5024e6023cb272261.png)
 
-### **Circuit Diagram and Wiring Diagram**
+**Circuit Diagram and Wiring Diagram**
 
 We made a little dimmer in the front, now let's make a light controlled lamp. The principle is the same, the Raspberry Pi Pico will be used to obtain the analog value of the sensor and then adjust the brightness of the LED.  
 
@@ -95,7 +95,7 @@ We made a little dimmer in the front, now let's make a light controlled lamp. T
 
 ![](media/71f2886dc6fa97d02e2ecd0d429af71b.png)
 
-### **Text Code**
+**Text Code**
 
 The code used in this project is saved in the file KS3026 Keyestudio Raspberry Pi Pico Learning Kit Basic Edition\\3. Raspberry Pi System\\Python\_Tutorial\\2. Projects\\Project 20：Night Lamp. You can move the code anywhere. We save the code to the pi folder of the Raspberry Pi system. The path:home/pi/2. Projects
 
@@ -123,7 +123,7 @@ except:
 
 
 
-### **Test Result**
+**Test Result**
 
 Ensure that the Raspberry Pi Pico is connected to the computer，click“![](media/ec00367ea605788eab454cd176b94c7b.png)Stop/Restart backend”.
 

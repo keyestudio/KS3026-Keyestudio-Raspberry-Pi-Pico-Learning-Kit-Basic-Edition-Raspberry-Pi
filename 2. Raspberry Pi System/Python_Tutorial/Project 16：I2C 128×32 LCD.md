@@ -1,18 +1,18 @@
 # Project 16： I2C 128×32 LCD
 
-### **Introduction**
+**Introduction**
 
 We can use modules such as monitors to do various experiments in life. You can also DIY a variety of small objects. For example, you can make a temperature meter with a temperature sensor and display, or make a distance meter with an ultrasonic module and display.
 
 In this project, we will use the LCD_128X32_DOT module as a display and connect it to a Raspberry Pi Pico, which will be used to control the LCD_128X32_DOT display to show various English characters, common symbols and numbers.
 
-### **Components Required**
+**Components Required**
 
 | ![img](media/wps10-168421920933426.png) |![img](media/wps11-168421921147827.jpg)|![img](media/wps12-168421921314128.jpg)|![](media/7dcbd02995be3c142b2f97df7f7c03ce.png)|
 | ------------------------------------------------------- | ----------------------- | --------------------------- | ---------------------- |
 | Raspberry Pi Pico\*1                                    | LCD\_128X32\_DOT\*1     | 10CM M-F Dupont Wires       | USB Cable\*1           |
 
-### **Component Knowledge**
+**Component Knowledge**
 
 ![](media/2c2645e94a00867ac23e8a022f0a631a.png)
 
@@ -38,13 +38,13 @@ To make it easy to set up the pattern display, we also provide a mold capture so
 
 
 
-### **Circuit Diagram and Wiring Diagram**
+**Circuit Diagram and Wiring Diagram**
 
 Note: The LCD_128X32_DOT must be connected with 10CM M-F Dupont wires, which can make the LCD_128X32_DOT display normally. Otherwise, using 20CM M-F Dupont wires may cause the LCD_128X32_DOT display abnormally.  
 
 ![](media/82aae0a70e5628c53d7f81f7730cf79a.png)
 
-### **Test Code**
+**Test Code**
 
 The code used in this project is saved in the file KS3026 Keyestudio Raspberry Pi Pico Learning Kit Basic Edition\\3. Raspberry Pi System\\Python\_Tutorial\\2. Projects\\Project 16：I2C 128×32 LCD.
 
@@ -109,7 +109,7 @@ while True:
 
 
 
-### **Test Result**
+**Test Result**
 
 Ensure that the Raspberry Pi Pico is connected to the computer，click“![](media/ec00367ea605788eab454cd176b94c7b.png)Stop/Restart backend”.
 

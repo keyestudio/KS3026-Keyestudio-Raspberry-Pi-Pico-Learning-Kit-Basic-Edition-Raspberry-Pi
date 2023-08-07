@@ -1,12 +1,12 @@
 ## Project 03：External LED flashing 
 
-### **Introduction**
+**Introduction**
 
 In this project, we are going to show you the external LED flashing effect.  We will use the Raspberry Pi Pico's digital pins to turn on the LED and make it flash.
 
 
 
-### **Components**
+**Components**
 
 | ![image-20230516134405295](media\image-20230516134405295.png) | ![](media/bbed91c0b45fcafc7e7163bfeabf68f9-16841338154662.png) | ![image-20230425084841759](media/image-20230425084841759.png) |![74ca4fa6d49dbd04de6a603c6e55a9ee](media/74ca4fa6d49dbd04de6a603c6e55a9ee.png)|
 | ------------------------------------------------------- | ------------------------------------ | ---------------------- | ---------------------- |
@@ -14,7 +14,7 @@ In this project, we are going to show you the external LED flashing effect.  W
 |  |![image-20230516134432857](media\image-20230516134432857.png)|![image-20230516134512344](media/image-20230516134512344.png)|![](media/7dcbd02995be3c142b2f97df7f7c03ce-16841338328473.png)|
 |                                                 | 220Ω Resistor\*1                     | Breadboard\*1          | USB Cable\*1           |
 
-### **Knowledge**
+**Knowledge**
 
 **LED:**
 
@@ -102,7 +102,7 @@ In this project, we use a USB to connect the Raspberry Pi Pico to the computer. 
 
 ![](media/8ea81d60b8e2132c358041235490b7d5.jpeg)
 
-### **Circuit Diagram and Wiring Diagram**
+**Circuit Diagram and Wiring Diagram**
 
 First, cut all power to the Raspberry Pi Pico.  Then build the circuit according to the circuit diagram and wiring diagram.  After the circuits are set up and verified, using a USB cable to connect the Raspberry Pi Pico to a computer .  Note: Avoid any possible short circuits (especially connecting 3.3V and GND)\!
 
@@ -124,7 +124,7 @@ How to identify the 220Ω five-band resistor
 
 ![](media/55c0199544e9819328f6d5778f10d7d0.png)
 
-### **Test Code**
+**Test Code**
 
 According to the circuit diagram, when the GP16 output of the Pico is high, the LED will light up; When the output power is low, the LED will light off. Therefore, we can make the LED flash repeatedly by controlling the GP16 to repeatedly output high and low levels.  
 

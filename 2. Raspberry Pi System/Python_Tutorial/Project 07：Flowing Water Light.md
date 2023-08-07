@@ -1,12 +1,12 @@
 # Project 07: Flowing Water Light
 
-### **Introduction**
+**Introduction**
 
 In our daily life, we can see many billboards made up of different colors of LED. 
 
 They constantly change the light to attract the attention of customers. In this project, we will use Raspberry Pi Pico to control 10 LEDs to achieve the effect of flowing water.
 
-### **Components Required**
+**Components Required**
 
 | ![img](media/wps10.png) | ![img](media/wps11.jpg)             | ![img](media/wps12.jpg) |                         |
 | ----------------------- | ----------------------------------- | ----------------------- | ----------------------- |
@@ -16,7 +16,7 @@ They constantly change the light to attract the attention of customers. In this 
 
 
 
-### **Circuit Diagram and Wiring Diagram**
+**Circuit Diagram and Wiring Diagram**
 
 ![](media/e6f92039d131685369db2d1ac2c30267.png)
 
@@ -32,7 +32,7 @@ How to identify the 220Ω 5-band resistor
 
 ![](media/55c0199544e9819328f6d5778f10d7d0.png)
 
-### **Test Code**
+**Test Code**
 
 This project is to design and manufacture a flowing water light.  
 
@@ -81,7 +81,7 @@ while True:
 
 
 
-### **Test Result：**
+**Test Result：**
 
 Connect the pico board to the Raspberry Pi. Click ![](media/32e03e9d4211e9ef97c1d2b18f05c902.png)to check the Shell
 

@@ -1,6 +1,6 @@
 # Project 06: RGB LED
 
-### **Introduction**
+**Introduction**
 
 ![](media/94bdff69e438989d8e0934e57f2e5c00.png)
 
@@ -8,7 +8,7 @@ RGB LEDS are made up of three colors (red, green, and blue) , which can emit dif
 
 In this project, we will introduce the RGB LED and show you how to use the Raspberry Pi Pico to control the RGB LED. Even though RGB LED is very basic, it is also a great way to learn the fundamentals of electronics and coding.
 
-### **Components Required**
+**Components Required**
 
 | ![image-20230516140304148](media/image-20230516140304148.png) | ![image-20230516140312233](media/image-20230516140312233.png) |![](media/f1a86fc81ab4b043263ce7e01e14d470.png)||
 | ------------------------------------------------------- | ------------------------------------ | ------------------------------- | ---------------------- |
@@ -18,7 +18,7 @@ In this project, we will introduce the RGB LED and show you how to use the Raspb
 
 
 
-### **Component Knowledge**
+**Component Knowledge**
 
 The monitors mostly adopt the RGB color standard, and all the colors on the computer screen are composed of the three colors of red, green and blue mixed in different proportions.
 
@@ -30,7 +30,7 @@ If we use three 10-bit PWM to control the RGBLED, theoretically we can create 21
 
 
 
-### **Circuit Diagram and Wiring Diagram**
+**Circuit Diagram and Wiring Diagram**
 
 ![](media/f6950bc8498e6139cbb67db84cdd5a9a.png)
 
@@ -46,7 +46,7 @@ How to identify the 220Ω 5-band resistor
 
 ![](media/55c0199544e9819328f6d5778f10d7d0.png)
 
-### **Test Code**
+**Test Code**
 
 The code used in this project is saved in the file KS3026 Keyestudio Raspberry Pi Pico Learning Kit Basic Edition\\3.Raspberry Pi System\\Python\_Tutorial\\2. Projects\\Project 06：RGB LED. You can move the code to anywhere.For example, we can save the pi folder of the Raspberry Pi System, the route is home/pi/2. Projects
 
@@ -94,7 +94,7 @@ except:
 
 
 
-### **Test Result**
+**Test Result**
 
 Ensure that the Raspberry Pi Pico is connected to the computer, click ![](media/ec00367ea605788eab454cd176b94c7b.png)“Stop/Restart backend”.
 

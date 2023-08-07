@@ -1,12 +1,12 @@
 # Project 01: Hello World
 
-### **Introduction**
+**Introduction**
 
 For Raspberry Pi Pico beginners, we will start with some simple things. In this project, you only need a Raspberry Pi Pico and a USB cable to complete the "Hello World!" project, which is a test of communication between Raspberry Pi Pico and the PC as well as a primary project.
 
 
 
-### **Components**
+**Components**
 
 | ![2e2bec86b3985dab2f1c07dfdb89ba73](media/2e2bec86b3985dab2f1c07dfdb89ba73.jpeg) |![](media/3bdcc62cfa661d2b860a76e28537e21e-16841337400571.png)|
 | ------------------------------- | ---------------------- |
@@ -14,13 +14,13 @@ For Raspberry Pi Pico beginners, we will start with some simple things. In this 
 
 
 
-### **Wiring Up**
+**Wiring Up**
 
 In this project, we use a USB cable to connect the Raspberry Pi Pico to Raspberry Pi.
 
 ![](media/8ea81d60b8e2132c358041235490b7d5.jpeg)
 
-### **Test Code**
+**Test Code**
 
 Connect the pico board to the Raspberry Pi, then the Thonny can compile or debug.
 
@@ -65,7 +65,7 @@ When running online，click![](media/32e03e9d4211e9ef97c1d2b18f05c902.png)“Sto
 
 ![](media/92ea345930ed8be1b8e04b341f20f2b6.png)
 
-### **Test Result：**
+**Test Result：**
 
 print("Hello World!")
 

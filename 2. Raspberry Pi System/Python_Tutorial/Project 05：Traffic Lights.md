@@ -1,10 +1,10 @@
 # Project 05：Traffic Lights
 
-### **Introduction**
+**Introduction**
 
 Traffic lights are closely related to people's daily lives, which generally show red, yellow, and green. Everyone should obey the traffic rules, which can avoid many traffic accidents. In this project, we will use Raspberry Pi Pico and some LEDs (red, green and yellow) to simulate the traffic lights.
 
-### **Components Required**
+**Components Required**
 
 | ![img](media/wps1-16842165985231.png) | ![img](media/wps2.jpg)              | ![img](media/wps3.jpg) |
 | ------------------------------------- | ----------------------------------- | ---------------------- |
@@ -16,7 +16,7 @@ Traffic lights are closely related to people's daily lives, which generally show
 
 
 
-### **Circuit Diagram and Wiring Diagram**
+**Circuit Diagram and Wiring Diagram**
 
 ![](media/4cf2ad735b0df82d62a5fcdb19ebf3c0.png)
 
@@ -32,7 +32,7 @@ How to identify the 220Ω 5-band resistor
 
 ![](media/55c0199544e9819328f6d5778f10d7d0.png)
 
-### **Test Code**
+**Test Code**
 
 The code used in this project is saved in the file KS3026 Keyestudio Raspberry Pi Pico Learning Kit Basic Edition\3. Raspberry Pi System\Python_Tutorial\2. Projects\Project 05:Traffic Lights. You can move the code to anywhere.For example, we save it in the oi folder of the Raspberry Pi system, the route is home/pi/2. Projects.
 
@@ -73,7 +73,7 @@ while True:
 
 
 
-### **Test Result：**
+**Test Result：**
 
 Connect the pico board to the Raspberry Pi. Click![](media/32e03e9d4211e9ef97c1d2b18f05c902.png)to check the Shell
 

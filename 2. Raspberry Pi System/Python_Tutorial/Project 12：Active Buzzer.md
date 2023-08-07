@@ -1,12 +1,12 @@
 # Project 12：Active Buzzer
 
-### **Introduction**
+**Introduction**
 
 Active buzzer is a sound making element, which is widely used on computers, printers, alarms, electronic toys, telephones, timers, etc. It has an inner vibration source. 
 
 In this project, we will use a Raspberry Pi Pico to control the active buzzer to buzz.
 
-### **Components Required**
+**Components Required**
 
 | ![image-20230516142844499](media/image-20230516142844499.png) | ![](media/bbed91c0b45fcafc7e7163bfeabf68f9.png) | ![](media/7dcbd02995be3c142b2f97df7f7c03ce.png) ||
 | ------------------------------------------------------- | ------------------------------------ | ---------------------- | ---------------------- |
@@ -14,7 +14,7 @@ In this project, we will use a Raspberry Pi Pico to control the active buzzer to
 | ![image-20230516142849496](media/image-20230516142849496.png) |![image-20230516142855177](media/image-20230516142855177.png)|![image-20230516142900554](media/image-20230516142900554.png)||
 | Active Buzzer\*1                                        | Breadboard\*1                        | Jumper Wires           |            |
 
-### **Component Knowledge**
+**Component Knowledge**
 
 ![](media/11ec5ddc982db9928341e858aab94652.png)
 
@@ -28,7 +28,7 @@ Passive buzzers don't have positive pole, but active buzzers have. As shown belo
 
 ![](media/0f9825969867ac2d65bb1a19ed0ad2ab.png)
 
-### **Circuit Diagram and Wiring Diagram**
+**Circuit Diagram and Wiring Diagram**
 
 
 ![](media/48e73ef2d6090fe7cda58c385bad2ab2.png)
@@ -43,7 +43,7 @@ Note:
 
 3\. The positive terminal ("+"/long pin) of the active buzzer is connected to pin 16, and the negative terminal (short pin) is connected to GND.
 
-### **Test Code**
+**Test Code**
 
 The code used in this project is saved in the file KS3026 Keyestudio Raspberry Pi Pico Learning Kit Basic Edition\\3.Raspberry Pi System\\Python\_Tutorial\\2. Projects\\Project 12：Active Buzzer. You can move the code anywhere. We save the code to the pi folder of the Raspberry Pi system.
 
@@ -73,7 +73,7 @@ except:
 
 
 
-### **Text Result**
+**Text Result**
 
 Ensure that the Raspberry Pi Pico is connected to the computer，click“![](media/ec00367ea605788eab454cd176b94c7b.png)Stop/Restart backend”.
 

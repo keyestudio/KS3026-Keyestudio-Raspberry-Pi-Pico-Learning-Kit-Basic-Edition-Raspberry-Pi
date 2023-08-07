@@ -1,22 +1,22 @@
 # Project 02: Onboard LED flashing
 
-### **1. Description：**
+**1. Description：**
 
 There is an onboard LED in Raspberry Pi Pico,which is a GP25 pin attached to the Raspberry Pi Pico. In this project, we will learn the effect of making the onboard LED blink.
 
-### **2. Components**
+**2. Components**
 
 | ![2e2bec86b3985dab2f1c07dfdb89ba73](media/2e2bec86b3985dab2f1c07dfdb89ba73.jpeg) |![](media/3bdcc62cfa661d2b860a76e28537e21e.png)|
 | ------------------------------- | ---------------------- |
 | Raspberry Pi Pico\*1            | USB Cable\*1           |
 
-### **3. Wiring Up**
+**3. Wiring Up**
 
 In this project, we use a USB cable to connect the Raspberry Pi Pico to the computer.
 
 ![](media/8ea81d60b8e2132c358041235490b7d5.jpeg)
 
-### **4. Test Code**
+**4. Test Code**
 
 Go to the folder KS3026 Keyestudio Raspberry Pi Pico Learning Kit Basic Edition\\3. Raspberry Pi System\\Python\_Tutorial\\2. Projects\\Project 02：Onboard LED flashing.
 

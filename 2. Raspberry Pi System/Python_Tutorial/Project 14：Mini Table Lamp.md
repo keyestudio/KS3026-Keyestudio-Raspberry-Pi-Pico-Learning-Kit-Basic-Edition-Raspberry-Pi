@@ -1,10 +1,10 @@
 # Project 14 : Mini Table Lamp
 
-### **Introduction**
+**Introduction**
 
 Did you know that a Raspberry Pi Pico can light up an LED when you press a button? In this project, we will use the Raspberry Pi Pico, a key switch and an LED to make a Mini Table lamp.
 
-### **Components Required**
+**Components Required**
 
 | ![img](media/wps11.png)                 | ![img](media/wps12-16842188474579.jpg) | ![img](media/wps13-168421884886010.jpg) | ![img](media/wps14-168421885048311.jpg) | ![img](media/wps15-168421885173912.jpg) |
 | --------------------------------------- | -------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
@@ -12,7 +12,7 @@ Did you know that a Raspberry Pi Pico can light up an LED when you press a butto
 | ![img](media/wps16-168421885362713.jpg) | ![img](media/wps17.jpg)                | ![img](media/wps18-168421885734014.jpg) | ![img](media/wps19-168421885900415.jpg) | ![img](media/wps20-168421886061916.jpg) |
 | Breadboard*1                            | 220ΩResistor*1                         | USB Cable*1                             | JumperWires                             | Button Cap*1                            |
 
-### **Component Knowledge**
+**Component Knowledge**
 
 ![](media/5b8fea4657b47510d199f740fdcaaa9d.png)
 
@@ -48,7 +48,7 @@ Therefore, we delay 0.02s in the code to achieve the key anti-shake function.
 
 ![](media/c0d68d1134b0b4097e8983ed2cac07fc.jpeg)
 
-### **Circuit Diagram and Wiring Diagram**
+**Circuit Diagram and Wiring Diagram**
 
 ![](media/0753a2a452e0292b31f79f9b6dabb0cc.png)
 
@@ -66,7 +66,7 @@ How to identify the 220Ω 5-band resistor and 10KΩ 5-band resistor
 
 ![](media/246cf3885dc837c458a28123885c9f7b.png)
 
-### Test Code
+Test Code
 
 The code used in this project is saved in the file KS3026 Keyestudio Raspberry Pi Pico Learning Kit Basic Edition\3.Raspberry Pi System\Python_Tutorial\2. Projects\Project 14：Mini Table Lamp. 
 
@@ -106,7 +106,7 @@ except:
 
 
 
-### **Test Result**
+**Test Result**
 
 Ensure that the Raspberry Pi Pico is connected to the computer，click“![](media/ec00367ea605788eab454cd176b94c7b.png)Stop/Restart backend”.
 
